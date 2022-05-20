@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import HookComp from './components/HookComp'
+import ReducerComp from './components/ReducerComp';
+import ReducerComp2 from './components/ReducerComp2';
+import ExReducer from './components/ExReducer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HookComp />
+      <ReducerComp />
+      <ReducerComp2 />
+      <ExReducer />
     </div>
   );
 }
