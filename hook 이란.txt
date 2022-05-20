@@ -1,0 +1,15 @@
+설치해야할 파일
+- vscode
+- git  > 처음에 github와 연결하기
+- node.js
+
+npm 으로 설치 할 파일
+react : npm install -g create-react-app
+vue : npm install -g @vue/cli
+express : npm install -g express-generator
+
+
+
+hook은 클래스 함수에서만 사용할수있었던 state기능을
+함수형 컴포넌트에서도 사용할수있게끔 해주는 함수
+ex. usestate또한 react 내장 훅
